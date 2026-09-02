@@ -1,37 +1,253 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>AdotaPet</title>
-  </head>
+<html lang="pt-br">
 
-  <body>
-    <header>
-        <div class="principal">
-            <!-- Cabeçalho da página -->
-      <nav class="barra-de-nav">
-        <img src="./assets/Logo-cabecalho.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>AdotaPet</title>
+</head>
 
-        <ul class="menu-superior">
-          <li><a class="menu-superior__link" href="#">Quem somos</a></li>
-          <li><a class="menu-superior__link" href="#">Quero adotar</a></li>
+<body>
+  <div class="principal">
+    <header class="cabecalho">
 
-          <li><a class="menu-superior__link" href="#">Parcerias</a></li>
-          <li><a class="menu-superior__link" href="#">Blog</a></li>
+      <!-- Cabeçalho da página -->
+      <nav class="barra-de-navegacao">
 
-          <li><a class="menu-superior__botao" href="#">DOE & AJUDE</a></li>
-          <li><a class="menu-superior__link" href="#">Entrar</a></li>
-          <li><a class="menu-superior__link" href="#">Cadastra-se</a></li>
+        <div class="barra-de-navegacao__logo">
+          <img src="./assets/Logo-cabecalho.png" />
+          
+          <ul class="menu-superior">
+          
+          
+            <li><a class="menu-superior__link" href="#">quem somos</a></li>
+            <li><a class="menu-superior__link" href="#">quero adotar</a></li>
+          
+            <li><a class="menu-superior__link" href="#">parcerias</a></li>
+            <li><a class="menu-superior__link" href="#">blog</a></li>
+          </ul>
+          
+          <a class="botao" href="#">DOE & AJUDE</a>
+        </div>
+
+        <ul class="menu-superior__login">
+          <li><a class="menu-superior__link" href="#">entrar</a></li>
+          <li><a class="menu-superior__link" href="#">cadastra-se</a></li>
+
         </ul>
-      </nav>
-      
-    </header>
-    <main></main>
 
-    <footer></footer>
-    </div>
-  </body>
+      </nav>
+
+    </header>
+
+  </div>
+
+  <main class="conteudo-principal">
+    <!-- Conteúdo principal da página -->
+    <section class="banner">
+      <div class="banner-esquerda">
+        <h2>Faça a diferença sem sair de casa!</h2>
+       
+      </div>
+      <div class="banner-direita">
+         <p><span class="negrito">Se você acha que todo animal de rua merece um lar,</span>
+          doe agora e ajude a manter o nosso trabalho.</p>
+
+          <a class="botao" href="#">QUERO AJUDAR</a>
+      </div>
+      
+      
+    </section>
+    <section class="botoes-adocao">
+      <div>
+        <p><a class="botoes-adocao__Encontre" href="">Quero Adotar</a></p>
+        <p><a class="botoes_adocao__Divulge" href="">Quero divulgar um animal</a></p>
+      </div>
+    </section>
+
+    <section class="texto-adocao">
+
+      <p>Encontre o seu mais novo amigo aqui!</p>
+      <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma família.
+        Vem ver!</p>
+      <ul class="texto-adocao__lista">
+        <li><a href="">Mais recentes</a></li>
+        <li><a href="">Mais antigos</a></li>
+        <li><a href="">Mais vistos</a></li>
+        <li><a href=""> Menos vistos</a></li>
+      </ul>
+
+    </section>
+
+    <section class="galeria-adocao">
+     <ul>
+      <li>
+        <article>
+          <img class="galeria-adocao__fotos" src="./assets/CachorrinhaLaco.jpg">
+         
+         
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <img class="galeria-adocao__fotos" src="./assets/GataLaranja.jpg">
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <img class="galeria-adocao__fotos" src="./assets/CachorroBranco.jpg">
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <blockquote></blockquote>
+        </article>
+      </li>
+      <li>
+        <article>
+          <blockquote></blockquote>
+        </article>
+      </li>
+     </ul>
+
+    </section>
+
+    <p><a class="botao-pesquisa-bichos" href="#">pesquisar bichos</a></p>
+
+    <section class="artigos-adocao">
+
+      <h3 class="texto-adocao">Por que adotar?</h3>
+
+      <ul>
+        <li>
+          <article class="artigos-adocao__conteudo">
+
+            <img class="artigo-adocao_foto" src="./assets/Passeando-com-Cachorro.png" />
+
+            <blockquote class="artigos-adocao__noticia">Nesse exato momento,
+              existem milhares de doguinhos e gatinhos esperando um
+              humano para chamar de seu.</blockquote>
+          </article>
+        </li>
+        <li>
+          <article class="artigo-adocao__conteudo">
+
+            <img class="artigo-adocao_foto" src="./assets/Personagem-Segurando-gato.png" />
+
+            <blockquote class="artigo-adocao__noticia">E não há recompensa maior do que vê-los se tornando aquela
+              coisinha alegre e saudável depois de uma boa dose de cuidado
+              e carinho.</blockquote>
+          </article>
+        </li>
+        <li>
+          <article class="artigo-adocao__noticia">
+
+            <img class="artigo-adocao_foto" src="./assets/Segurando-Cachorro.png" />
+
+            <blockquote class="artigos-adocao__noticia">Pensando bem, a pergunta é outra:
+              se você pode mudar o destino de um animal de rua, por que não faria isso?</blockquote>
+
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="noticias-blog">
+      <h2>Blog do AdotaPet</h2>
+      <p>Veja nossas últimas dicas sobre cuidados com seu pet</p>
+      <ul class="noticias-blog__lista">
+        <li>
+          <article class="noticias-blog__cards"> </article>
+          <img class="noticias-blog__imagens" src="./assets/Cachorro-segurandoLapis.png">
+
+          <h3>Como você cuida dos seus animais?</h3>
+
+          <blockquote class="noticias-blog__conteudo">
+
+            Olá, amigos!
+            Desde 2012, conectamos mais de 12 mil cães e gatos a pessoas que queriam um novo amigo para chamar de seu.
+            Agora,
+            precisamos aprender como cuidar...</blockquote>
+          <cite><a href="#">Ler mais</a></cite>
+        </li>
+        <li>
+          <article class="noticias-blog__cards"></article>
+          <h3>Nossa retrospectiva 2025 está demais!</h3>
+
+          <img class="noticias-blog__imagens" src="./assets/gatos-formando2025.png">
+
+          <blockquote class="noticias-blog__conteudo">
+            Olá, amigos!
+            Desde 2012, conectamos mais de 12 mil cães e gatos a pessoas que queriam um novo amigo para chamar de seu.
+            Agora,
+            precisamos aprender como cuidar...</blockquote>
+          <cite><a href="#">Ler mais</a></cite>
+        </li>
+        <li>
+          <article class="noticias-blog__cards"></article>
+          <h3>Fizemos uma Black Friday de ajuda aos animais</h3>
+
+          <img class="noticias-blog__imagens" src="./assets/GatoPreto.png">
+
+          <blockquote class="noticias-blog__conteudo">
+            Olá, amigos!
+            Desde 2012, conectamos mais de 12 mil cães e gatos a pessoas que queriam um novo amigo para chamar de seu.
+            Agora,
+            precisamos aprender como cuidar...</blockquote>
+
+          <cite><a href="#">Ler mais</a></cite>
+        </li>
+      </ul>
+    </section>
+
+    <p><a class="botao-pesquisa-bichos" href="#">Ver todas as dicas</a></p>
+
+  </main>
+
+  <footer>
+    <p>ADOTE
+      Adote com responsabilidade
+      Pesquisar animais</p>
+
+    <p>COLABORE
+      Doe qualquer valor
+      Seja uma Empresa Parceira</p>
+
+    <p>DIVULGUE UM ANIMAL
+      Cadastrar um animal</p>
+
+    <p>SOBRE A ADOTAPET
+      Sobre a AdotaPet
+      Perguntas Frequentes
+      Termo de uso e Política de
+      Privacidade</p>
+
+    <p>PERFIL
+      Minha página de perfil
+      Cadastre-se</p>
+
+
+    <p> Copyright &copy; Todos os direitos reservados Desenvolvimento - Miguel</p>
+
+    <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+
+  </footer>
+  </div>
+</body>
+
 </html>
