@@ -226,14 +226,12 @@ body {
   column-gap: 16px;
   row-gap: 32px;
   margin-top: 30px;
-
 }
 
 .galeria-adocao__fotos {
   width: 274px;
   height: 254px;
   border-radius: 16px 16px 0 0;
-
 }
 
 .card-pets {
@@ -241,13 +239,12 @@ body {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--cor-secundaria);
   font-family: var(--fonte-principal);
-
 }
 
 .card-pets__descricao {
   padding: 10px;
-
 }
 
 .card-pets__nome {
@@ -268,16 +265,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .botao-bichos {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 8px;
-  padding: 20px 30px;
   margin-top: 32px;
   width: 280px;
+  height: 50px;
   font-size: 16px;
   font-weight: 700;
   font-family: var(--fonte-principal);
@@ -313,14 +310,15 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 16px;
-
 }
 
 .artigos-adocao__conteudo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   gap: 12px;
-  width: 360px;
+  width: 370px;
   height: 153px;
   margin-bottom: 64px;
   padding: 16px;
@@ -334,9 +332,79 @@ body {
   width: 227px;
   line-height: 1.5;
   font-family: var(--fonte-principal);
+  align-items: flex-start;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .texto-marcacao {
   color: var(--cor-principal);
+  font-weight: 700;
+}
+
+.noticias-blog {
+  display: flex;
+  gap: 16px;
+}
+
+.noticias-blog__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 484px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--cor-secundaria);
+  font-family: var(--fonte-principal);
+}
+
+.noticias-blog__imagens {
+  width: 370px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.noticias-blog__titulo {
+  padding: 10px;
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--cor-principal);
+  margin-bottom: 8px;
+}
+
+.noticias-blog__saudacao {
+   align-self: flex-start;
+  text-align: left;
+  padding: 0 10px;
+  margin-bottom: 16px;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  color: var(--cor-cinza);
+}
+
+.noticias-blog__conteudo {
+  padding: 0 10px;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cor-cinza);
+}
+
+.botao-lermais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 45px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  text-decoration: none;
+  background-color: var(--cor-secundaria);
+  border: 1px solid var(--cor-Cantaloupe);
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: var(--fonte-principal);
   font-weight: 700;
 }
