@@ -285,6 +285,12 @@ body {
   text-decoration: none;
 }
 
+.botao-bichos:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
+
+}
+
 .artigos-adocao__adotar {
   font-family: var(--fonte-secundaria);
   font-size: 32px;
@@ -408,6 +414,11 @@ body {
   font-size: 16px;
   font-family: var(--fonte-principal);
   font-weight: 700;
+}
+.botao-lermais:hover{
+  background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: none;
 }
 
 footer {
