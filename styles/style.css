@@ -82,10 +82,12 @@ body {
   background-color: var(--cor-principal);
   color: var(--cor-secundaria);
 }
+
 .botao:hover {
   background-color: var(--cor-Cantaloupe);
   color: var(--cor-principal);
 }
+
 .menu-superior__login {
   display: flex;
   gap: 32px;
@@ -114,6 +116,7 @@ body {
   line-height: 1.2;
   color: #4c1491;
 }
+
 .banner-direita {
   display: flex;
   flex-direction: column;
@@ -124,9 +127,11 @@ body {
   font-family: var(--fonte-principal);
   line-height: 1.5;
 }
+
 .negrito {
   font-weight: 700;
 }
+
 .banner-direita p {
   margin-bottom: 27px;
 }
@@ -137,6 +142,7 @@ body {
   margin-top: 32px;
   font-family: var(--fonte-principal);
 }
+
 .botoes-adocao__adotar {
   display: flex;
   justify-content: center;
@@ -149,10 +155,12 @@ body {
   background-color: var(--cor-principal);
   color: var(--cor-secundaria);
 }
+
 .botoes-adocao__adotar:hover {
   background-color: var(--cor-Cantaloupe);
   color: var(--cor-principal);
 }
+
 .botoes_adocao__Divulge {
   display: flex;
   justify-content: center;
@@ -167,21 +175,24 @@ body {
   border: 1px solid var(--cor-principal);
   color: var(--cor-principal);
 }
+
 .botoes_adocao__Divulge:hover {
   background-color: var(--cor-principal);
   color: var(--cor-secundaria);
 }
-.texto-adocao{
+
+.texto-adocao {
   margin-top: 64px;
 }
-.texto-adocao__titulo{
+
+.texto-adocao__titulo {
   font-family: var(--fonte-secundaria);
   font-size: 36px;
   margin-bottom: 34px;
   color: var(--cor-principal);
 }
 
-.texto-adocao__descricao{
+.texto-adocao__descricao {
   font-family: var(--fonte-principal);
   font-size: 20px;
   width: 675px;
@@ -207,4 +218,125 @@ body {
 .texto-adocao__listagem__links:hover {
   color: var(--cor-Cantaloupe);
   font-size: 17px;
+}
+
+.galeria-adocao {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  row-gap: 32px;
+  margin-top: 30px;
+
+}
+
+.galeria-adocao__fotos {
+  width: 274px;
+  height: 254px;
+  border-radius: 16px 16px 0 0;
+
+}
+
+.card-pets {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: var(--fonte-principal);
+
+}
+
+.card-pets__descricao {
+  padding: 10px;
+
+}
+
+.card-pets__nome {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--cor-principal);
+  margin-bottom: 4px;
+  margin-top: 36px;
+}
+
+.card-pets__cidade {
+  font-size: 14px;
+  color: var(--cor-cinza);
+  margin-bottom: 11px;
+}
+
+.botao-bichos__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botao-bichos {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-top: 32px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-secundaria);
+  color: var(--cor-principal);
+  border: 1px solid var(--cor-principal);
+  text-decoration: none;
+}
+
+.artigos-adocao__adotar {
+  font-family: var(--fonte-secundaria);
+  font-size: 32px;
+  margin-bottom: 34px;
+  color: var(--cor-principal);
+}
+
+.titulo-adotapet {
+  font-family: var(--fonte-secundaria);
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: var(--cor-principal);
+}
+
+.descricao {
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  margin-bottom: 67px;
+}
+
+.artigos-adocao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+
+}
+
+.artigos-adocao__conteudo {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 360px;
+  height: 153px;
+  margin-bottom: 64px;
+  padding: 16px;
+  font-size: 16px;
+  background-color: var(--cor-secundaria);
+  border: 2px solid var(--cor-Cantaloupe);
+  border-radius: 8px;
+}
+
+.artigos-adocao__noticia {
+  width: 227px;
+  line-height: 1.5;
+  font-family: var(--fonte-principal);
+}
+
+.texto-marcacao {
+  color: var(--cor-principal);
+  font-weight: 700;
 }
