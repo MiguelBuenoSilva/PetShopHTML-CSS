@@ -419,6 +419,7 @@ body {
   background-color: var(--cor-principal);
     color: var(--cor-secundaria);
     border: none;
+    text-decoration: none;
 }
 
 footer {
