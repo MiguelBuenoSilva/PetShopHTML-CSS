@@ -410,6 +410,7 @@ body {
   text-decoration: none;
   background-color: var(--cor-secundaria);
   border: 1px solid var(--cor-Cantaloupe);
+  color: var(--cor-principal);
   border-radius: 8px;
   font-size: 16px;
   font-family: var(--fonte-principal);
